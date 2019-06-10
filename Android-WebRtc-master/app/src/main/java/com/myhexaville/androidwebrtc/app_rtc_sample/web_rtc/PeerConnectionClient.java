@@ -91,15 +91,15 @@ public class PeerConnectionClient {
     private final ScheduledExecutorService executor;
 
     ArrayList<String> parameters = new ArrayList<String>() {{
-        add("bytesRecieved");
+        add("bytesReceived");
         add("bytesSent");
         add("googJitterReceived");
         add("googRtt");
         add("packetsLost");
-        add("packetsRecieved");
+        add("packetsReceived");
         add("packetsSent");
         add("requestsSent");
-        add("responsesRecieved");
+        add("responsesReceived");
         add("responsesSent");
     }};
 

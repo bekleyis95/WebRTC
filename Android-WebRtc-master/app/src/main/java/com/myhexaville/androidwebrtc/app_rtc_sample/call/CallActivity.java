@@ -20,11 +20,8 @@ import android.view.View;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.myhexaville.androidwebrtc.FirebaseStat;
 import com.myhexaville.androidwebrtc.R;
 import com.myhexaville.androidwebrtc.databinding.ActivityCallBinding;
@@ -47,7 +44,6 @@ import org.webrtc.StatsReport;
 import org.webrtc.VideoCapturer;
 import org.webrtc.VideoRenderer;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -628,27 +624,36 @@ public class CallActivity extends AppCompatActivity
             for(StatsReport.Value value: report.values){
                 Log.i("StatsReport", value.name+": "+value.value);
                 switch (value.name){
-                    case "packetsLost":{
+                    case "packetsLost":
                         stat.packetsLost+=Integer.parseInt(value.value);
-                    }case "packetsRecieved":{
-                        stat.packetsRecieved+=Integer.parseInt(value.value);
-                    }case "bytesRecieved":{
-                        stat.bytesRecieved+=Integer.parseInt(value.value);
-                    }case "bytesSent":{
+                        break;
+                    case "packetsReceived":
+                        stat.packetsReceived +=Integer.parseInt(value.value);
+                        break;
+                    case "bytesReceived":
+                        stat.bytesReceived +=Integer.parseInt(value.value);
+                        break;
+                    case "bytesSent":
                         stat.bytesSent+=Integer.parseInt(value.value);
-                    }case "packetsSent":{
+                        break;
+                    case "packetsSent":
                         stat.packetsSent+=Integer.parseInt(value.value);
-                    }case "requestsSent":{
+                        break;
+                    case "requestsSent":
                         stat.requestsSent+=Integer.parseInt(value.value);
-                    }case "responsesSent":{
+                        break;
+                    case "responsesSent":
                         stat.responsesSent+=Integer.parseInt(value.value);
-                    }case "responsesRecieved":{
-                        stat.responsesRecieved+=Integer.parseInt(value.value);
-                    }case "googJitterReceived":{
+                        break;
+                    case "responsesReceived":
+                        stat.responsesReceived +=Integer.parseInt(value.value);
+                        break;
+                    case "googJitterReceived":
                         stat.googJitterReceived+=Integer.parseInt(value.value);
-                    }case "googRtt":{
+                        break;
+                    case "googRtt":
                         stat.googRtt+=Integer.parseInt(value.value);
-                    }
+                        break;
                 }
             }
         }
