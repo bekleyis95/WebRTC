@@ -1,4 +1,4 @@
-#Thu Mar 07 13:35:37 EET 2019
-base.0=/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/transforms/dexMerger/debug/23
+#Sat Jun 01 14:21:01 EET 2019
+base.0=/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/transforms/dexMerger/debug/23
 path.0=classes.dex
 renamed.0=classes.dex

@@ -44,6 +44,7 @@ import org.webrtc.voiceengine.WebRtcAudioUtils;
 import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
+import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -88,6 +89,19 @@ public class PeerConnectionClient {
     private final PCObserver pcObserver = new PCObserver();
     private final SDPObserver sdpObserver = new SDPObserver();
     private final ScheduledExecutorService executor;
+
+    ArrayList<String> parameters = new ArrayList<String>() {{
+        add("bytesRecieved");
+        add("bytesSent");
+        add("googJitterReceived");
+        add("googRtt");
+        add("packetsLost");
+        add("packetsRecieved");
+        add("packetsSent");
+        add("requestsSent");
+        add("responsesRecieved");
+        add("responsesSent");
+    }};
 
     private Context context;
     private PeerConnectionFactory factory;
@@ -185,6 +199,22 @@ public class PeerConnectionClient {
                     0, "VP8",
                     true,
                     false,
+                    0, "OPUS",
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false);
+        }
+
+        public static PeerConnectionParameters createCustom(boolean fecEnabled){
+            return new PeerConnectionParameters(true, false,
+                    false, 0, 0, 0,
+                    0, "VP8",
+                    true,
+                    fecEnabled,
                     0, "OPUS",
                     false,
                     false,
@@ -636,7 +666,19 @@ public class PeerConnectionClient {
             return null;
         }
         final StatsReport[][] x = new StatsReport[1][1];
-        boolean success = peerConnection.getStats(reports -> events.onPeerConnectionStatsReady(reports), null);
+        boolean success = peerConnection.getStats(reports -> {
+                events.onPeerConnectionStatsReady(reports);
+                for (StatsReport report: reports) {
+                    if (!report.type.equals("ssrc")) {
+                        continue;
+                    }
+                    for(StatsReport.Value val: report.values){
+                        if(parameters.contains(val.name)){
+                            Log.i(val.name, val.value);
+                        }
+                    }
+                }
+            }, null);
         if (!success) {
             Log.e(TAG, "getStats() returns false!");
         }

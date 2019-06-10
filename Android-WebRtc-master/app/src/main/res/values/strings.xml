@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="resolution_options">
+        <item>Standard Resolution</item>
+        <item>Start Low, Go High</item>
+        <item>Start High, Go Low</item>
+    </string-array>
+    
+    <string-array name="fec_option">
+        <item>FEC Disabled</item>
+        <item>FEC Enabled</item>
+    </string-array>
+
     <string name="app_name" translatable="false">Android WebRTC</string>
     <string name="settings_name" translatable="false">AppRTC Settings</string>
     <string name="disconnect_call">Disconnect Call</string>

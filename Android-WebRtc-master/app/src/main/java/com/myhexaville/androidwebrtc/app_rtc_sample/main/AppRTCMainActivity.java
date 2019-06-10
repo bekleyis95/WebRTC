@@ -25,6 +25,9 @@ import com.myhexaville.androidwebrtc.databinding.ActivityMainBinding;
 import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
 
+import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_DBNAME;
+import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_FEC;
+import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_RESOLUTION;
 import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_ROOMID;
 
 /**
@@ -42,7 +45,6 @@ public class AppRTCMainActivity extends AppCompatActivity {
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         binding.connectButton.setOnClickListener(v -> connect());
-        binding.roomEdittext.requestFocus();
     }
 
     @Override
@@ -55,15 +57,18 @@ public class AppRTCMainActivity extends AppCompatActivity {
     private void connect() {
         String[] perms = {Manifest.permission.CAMERA, Manifest.permission.RECORD_AUDIO};
         if (EasyPermissions.hasPermissions(this, perms)) {
-            connectToRoom(binding.roomEdittext.getText().toString());
+            connectToRoom(binding.roomEdittext.getText().toString(), binding.dbEdittext.getText().toString(), binding.resolutionSpinner.getSelectedItemPosition(), binding.fecSpinner.getSelectedItemPosition());
         } else {
             EasyPermissions.requestPermissions(this, "Need some permissions", RC_CALL, perms);
         }
     }
 
-    private void connectToRoom(String roomId) {
+    private void connectToRoom(String roomId, String dbName, int resolution, int fec) {
         Intent intent = new Intent(this, CallActivity.class);
         intent.putExtra(EXTRA_ROOMID, roomId);
+        intent.putExtra(EXTRA_DBNAME, dbName);
+        intent.putExtra(EXTRA_RESOLUTION, resolution);
+        intent.putExtra(EXTRA_FEC, fec);
         startActivityForResult(intent, CONNECTION_REQUEST);
     }
 }

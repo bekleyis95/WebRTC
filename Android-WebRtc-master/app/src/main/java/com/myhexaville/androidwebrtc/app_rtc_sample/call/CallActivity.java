@@ -55,6 +55,9 @@ import java.util.Set;
 import java.util.UUID;
 
 import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.CAPTURE_PERMISSION_REQUEST_CODE;
+import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_DBNAME;
+import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_FEC;
+import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_RESOLUTION;
 import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.EXTRA_ROOMID;
 import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.LOCAL_HEIGHT_CONNECTED;
 import static com.myhexaville.androidwebrtc.app_rtc_sample.util.Constants.LOCAL_HEIGHT_CONNECTING;
@@ -103,16 +106,7 @@ public class CallActivity extends AppCompatActivity
     final String uuid = UUID.randomUUID().toString().replace("-", "");
     FirebaseDatabase database;
     DatabaseReference idReference;
-    FileWriter packetsLost ;
-    FileWriter packetsRecieved ;
-    FileWriter bytesRecieved ;
-    FileWriter bytesSent ;
-    FileWriter packetsSent ;
-    FileWriter requestsSent ;
-    FileWriter responsesSent ;
-    FileWriter responsesRecieved ;
-    FileWriter googJitterReceived;
-    FileWriter googRtt;
+    private int resolution;
     FirebaseStat prevStat;
 
     int counter = 0;
@@ -123,12 +117,6 @@ public class CallActivity extends AppCompatActivity
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         statFilePath =getFilesDir().getPath();
-        Log.i("BAKBURAYA",statFilePath);
-        try{
-            openCSVs();
-        }catch (Exception e){
-            Log.e("StatsReport",e.getMessage());
-        }
         getWindow().addFlags(LayoutParams.FLAG_DISMISS_KEYGUARD | LayoutParams.FLAG_SHOW_WHEN_LOCKED
                 | LayoutParams.FLAG_TURN_SCREEN_ON);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
@@ -150,6 +138,10 @@ public class CallActivity extends AppCompatActivity
         // Get Intent parameters.
         final Intent intent = getIntent();
         String roomId = intent.getStringExtra(EXTRA_ROOMID);
+        String dbName = intent.getStringExtra(EXTRA_DBNAME);
+        resolution = intent.getIntExtra(EXTRA_RESOLUTION, 0);
+        int fec = intent.getIntExtra(EXTRA_FEC, 0);
+
         Log.d(LOG_TAG, "Room ID: " + roomId);
         if (roomId == null || roomId.length() == 0) {
             logAndToast(getString(R.string.missing_url));
@@ -160,7 +152,7 @@ public class CallActivity extends AppCompatActivity
         }
 
         // If capturing format is not specified for screencapture, use screen resolution.
-        peerConnectionParameters = PeerConnectionParameters.createDefault();
+        peerConnectionParameters = PeerConnectionParameters.createCustom(fec != 0);
 
         // Create connection client. Use DirectRTCClient if room name is an IP otherwise use the
         // standard WebSocketRTCClient.
@@ -175,7 +167,7 @@ public class CallActivity extends AppCompatActivity
         peerConnectionClient.createPeerConnectionFactory(this, peerConnectionParameters, this);
 
         database = FirebaseDatabase.getInstance();
-        idReference = database.getReference(uuid);
+        idReference = database.getReference(dbName+"_"+resolution+"_"+fec+"_1");
 
         startCall();
     }
@@ -273,38 +265,9 @@ public class CallActivity extends AppCompatActivity
         binding.captureFormatTextCall.setVisibility(View.GONE);
         binding.captureFormatSliderCall.setVisibility(View.GONE);
     }
-    public void openCSVs() throws IOException{
-        packetsLost = new FileWriter(statFilePath+"/packets_lost.txt",true);
-        packetsRecieved = new FileWriter(statFilePath+"/packets_recieved.txt", true);
-        bytesRecieved = new FileWriter(statFilePath+"/bytes_recieved.txt", true);
-        bytesSent = new FileWriter(statFilePath+"/bytes_sent.txt", true);
-        packetsSent = new FileWriter(statFilePath+"/packets_sent.txt", true);
-        requestsSent = new FileWriter(statFilePath+"/requests_sent.txt", true);
-        responsesSent = new FileWriter(statFilePath+"/responses_sent.txt", true);
-        responsesRecieved = new FileWriter(statFilePath+"/responses_recieved.txt", true);
-        googJitterReceived = new FileWriter(statFilePath+"/goog_jitter_received.txt", true);
-        googRtt = new FileWriter(statFilePath+"/goog_rtt.txt", true);
-    }
-    public void closeCSVs() throws IOException{
-        packetsLost.close();
-        packetsRecieved.close();
-        bytesRecieved.close();
-        bytesSent.close();
-        packetsSent.close();
-        requestsSent.close();
-        responsesSent.close();
-        responsesRecieved.close();
-        googJitterReceived.close();
-        googRtt.close();
 
-    }
     @Override
     protected void onDestroy() {
-        try{
-            closeCSVs();
-        }catch (Exception e){
-            Log.e("StatsReport",e.getMessage());
-        }
         disconnect();
         if (logToast != null) {
             logToast.cancel();
@@ -667,65 +630,50 @@ public class CallActivity extends AppCompatActivity
                 switch (value.name){
                     case "packetsLost":{
                         stat.packetsLost+=Integer.parseInt(value.value);
-                        //packetsLost.append(value.value);
-                        //packetsLost.append(",");
                     }case "packetsRecieved":{
                         stat.packetsRecieved+=Integer.parseInt(value.value);
-                        //packetsRecieved.append(value.value);
-                        //packetsRecieved.append(",");
                     }case "bytesRecieved":{
                         stat.bytesRecieved+=Integer.parseInt(value.value);
-                        //bytesRecieved.append(value.value);
-                        //bytesRecieved.append(",");
                     }case "bytesSent":{
                         stat.bytesSent+=Integer.parseInt(value.value);
-                        //bytesSent.append(value.value);
-                        //bytesSent.append(",");
                     }case "packetsSent":{
                         stat.packetsSent+=Integer.parseInt(value.value);
-                        //packetsSent.append(value.value);
-                        //packetsSent.append(",");
                     }case "requestsSent":{
                         stat.requestsSent+=Integer.parseInt(value.value);
-                        //requestsSent.append(value.value);
-                        //requestsSent.append(",");
                     }case "responsesSent":{
                         stat.responsesSent+=Integer.parseInt(value.value);
-                        //responsesSent.append(value.value);
-                        //responsesSent.append(",");
                     }case "responsesRecieved":{
                         stat.responsesRecieved+=Integer.parseInt(value.value);
-                        //responsesRecieved.append(value.value);
-                        //responsesRecieved.append(",");
                     }case "googJitterReceived":{
                         stat.googJitterReceived+=Integer.parseInt(value.value);
-                        //googJitterReceived.append(value.value);
-                        //googJitterReceived.append(",");
                     }case "googRtt":{
                         stat.googRtt+=Integer.parseInt(value.value);
-                        //googRtt.append(value.value);
-                        //googRtt.append(",");
                     }
                 }
             }
         }
-        /*
-        packetsLost.append("\n");
-        packetsRecieved.append("\n");
-        bytesRecieved.append("\n");
-        bytesSent.append("\n");
-        packetsSent.append("\n");
-        requestsSent.append("\n");
-        responsesSent.append("\n");
-        responsesRecieved.append("\n");
-        googJitterReceived.append("\n");
-        googRtt.append("\n");*/
-
         // Write a message to the database
 
         //dReference.(String.valueOf(counter));
         if(counter!=1){
             stat.getInc(prevStat);
+        }
+        if(counter==1){
+            if(resolution==1) {
+                onCaptureFormatChange(24,32,30);
+            }
+            else if(resolution==2){
+                onCaptureFormatChange(720, 1280, 30);
+            }
+        }
+        if(counter==30){
+            if(resolution==1){
+                onCaptureFormatChange(720, 1280, 30);
+            }
+
+            else if(resolution==2) {
+                onCaptureFormatChange(24,32,30);
+            }
         }
         idReference.child(String.valueOf(counter)).setValue(stat);
         prevStat = stat;

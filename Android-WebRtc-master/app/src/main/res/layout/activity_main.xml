@@ -15,30 +15,49 @@
             android:layout_height="wrap_content"
             android:text="@string/room_description" />
 
-        <LinearLayout
+
+        <EditText
+            android:id="@+id/room_edittext"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="40dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="true"
+            android:hint="Room name"
+            />
 
-            <EditText
-                android:id="@+id/room_edittext"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:imeOptions="actionDone"
-                android:inputType="text"
-                android:singleLine="true" />
+        <EditText
+            android:id="@+id/db_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="true"
+            android:hint="Field name for Database"
+            />
 
-            <ImageView
-                android:id="@+id/connect_button"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:padding="12dp"
-                android:foreground="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="@string/connect_description"
-                app:srcCompat="@drawable/call" />
-        </LinearLayout>
+        <Spinner
+            android:id="@+id/resolution_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/resolution_options"/>
+        
+        <Spinner
+            android:id="@+id/fec_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/fec_option"/>
+
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:id="@+id/connect_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:background="#add8e6"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/connect_description"
+            app:srcCompat="@drawable/call" />
     </LinearLayout>
 </layout>

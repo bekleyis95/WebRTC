@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/145f1dab1177345eef2d24dd2340c307/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {

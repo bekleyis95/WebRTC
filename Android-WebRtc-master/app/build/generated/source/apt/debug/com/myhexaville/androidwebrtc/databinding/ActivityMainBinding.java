@@ -17,13 +17,22 @@ public class ActivityMainBinding extends android.databinding.ViewDataBinding  {
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.room_edittext_description, 1);
         sViewsWithIds.put(R.id.room_edittext, 2);
-        sViewsWithIds.put(R.id.connect_button, 3);
+        sViewsWithIds.put(R.id.db_edittext, 3);
+        sViewsWithIds.put(R.id.resolution_spinner, 4);
+        sViewsWithIds.put(R.id.fec_spinner, 5);
+        sViewsWithIds.put(R.id.connect_button, 6);
     }
     // views
     @NonNull
     public final android.widget.ImageView connectButton;
     @NonNull
+    public final android.widget.EditText dbEdittext;
+    @NonNull
+    public final android.widget.Spinner fecSpinner;
+    @NonNull
     private final android.widget.LinearLayout mboundView0;
+    @NonNull
+    public final android.widget.Spinner resolutionSpinner;
     @NonNull
     public final android.widget.EditText roomEdittext;
     @NonNull
@@ -35,10 +44,13 @@ public class ActivityMainBinding extends android.databinding.ViewDataBinding  {
 
     public ActivityMainBinding(@NonNull android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         super(bindingComponent, root, 0);
-        final Object[] bindings = mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds);
-        this.connectButton = (android.widget.ImageView) bindings[3];
+        final Object[] bindings = mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds);
+        this.connectButton = (android.widget.ImageView) bindings[6];
+        this.dbEdittext = (android.widget.EditText) bindings[3];
+        this.fecSpinner = (android.widget.Spinner) bindings[5];
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
+        this.resolutionSpinner = (android.widget.Spinner) bindings[4];
         this.roomEdittext = (android.widget.EditText) bindings[2];
         this.roomEdittextDescription = (android.widget.TextView) bindings[1];
         setRootTag(root);

@@ -2,6 +2,9 @@ package com.myhexaville.androidwebrtc.app_rtc_sample.util;
 
 public class Constants {
     public static final String EXTRA_ROOMID = "org.appspot.apprtc.ROOMID";
+    public static final String EXTRA_DBNAME = "org.appspot.apprtc.DBNAME";
+    public static final String EXTRA_RESOLUTION=  "org.appspot.apprtc.RESOLUTION";
+    public static final String EXTRA_FEC =  "org.appspot.apprtc.FEC";
     public static final int CAPTURE_PERMISSION_REQUEST_CODE = 1;
 
     // List of mandatory application permissions.

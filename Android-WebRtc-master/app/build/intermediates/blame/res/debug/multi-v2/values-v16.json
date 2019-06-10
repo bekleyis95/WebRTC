@@ -1,6 +1,40 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/145f1dab1177345eef2d24dd2340c307/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/208db1a288d1df20677203a2a3224b47/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
