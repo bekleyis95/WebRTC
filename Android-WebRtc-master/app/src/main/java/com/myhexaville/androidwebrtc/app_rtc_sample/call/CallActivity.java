@@ -13,6 +13,7 @@ package com.myhexaville.androidwebrtc.app_rtc_sample.call;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -155,15 +156,17 @@ public class CallActivity extends AppCompatActivity
         appRtcClient = new WebSocketRTCClient(this);
 
         // Create connection parameters.
-        roomConnectionParameters = new RoomConnectionParameters("https://appr.tc", roomId, false);
+        String sociableRoomUrl = "https://sociable-802a9.appspot.com";
+        Uri roomUri = Uri.parse(sociableRoomUrl);
+        roomConnectionParameters = new RoomConnectionParameters(sociableRoomUrl, roomId, false);
 
         setupListeners();
 
         peerConnectionClient = PeerConnectionClient.getInstance();
         peerConnectionClient.createPeerConnectionFactory(this, peerConnectionParameters, this);
 
-        database = FirebaseDatabase.getInstance();
-        idReference = database.getReference(dbName+"_"+resolution+"_"+fec+"_1");
+        //database = FirebaseDatabase.getInstance();
+        //idReference = database.getReference(dbName+"_"+resolution+"_"+fec+"_1");
 
         startCall();
     }
@@ -605,7 +608,7 @@ public class CallActivity extends AppCompatActivity
     public void onPeerConnectionStatsReady(final StatsReport[] reports) {
         runOnUiThread(() -> {
             try {
-                logStats(reports);
+                //logStats(reports);
             }catch(Exception e){Log.e("StatsReport",e.getMessage());}
         });
     }

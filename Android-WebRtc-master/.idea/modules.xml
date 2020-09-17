@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android-WebRtc-master.iml" filepath="$PROJECT_DIR$/Android-WebRtc-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-WebRtc-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-WebRtc-master-app.iml" group="Android-WebRtc-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WebRTC-Android-WebRtc-master.iml" filepath="$PROJECT_DIR$/.idea/modules/WebRTC-Android-WebRtc-master.iml" group="Android-WebRtc-master" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

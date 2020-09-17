@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "outputFile": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.6.0.aar/5c50c79bbc577ba43e7614f21da18e02/res/values-zh/values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,107,169,232",
-                        "endColumns": "51,61,62,64",
-                        "endOffsets": "102,164,227,292"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
-            "map": [
-                {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.6.0.aar/4ab58e5db46b62ea9e89352874029bbe/res/values-zh/values-zh.xml",
+                    "source": "/Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/985ddfd2c99a5de459d9996f5c73cd8c/android-image-cropper-2.6.0/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

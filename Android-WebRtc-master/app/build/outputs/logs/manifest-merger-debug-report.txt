@@ -1,329 +1,332 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-MERGED from [com.android.databinding:adapters:1.3.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/5ac4b5b9b9842dccfc0cbec84e3f83ad/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.databinding:library:1.3.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/6c284d265412a18bb2bee57d0427f370/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5b78e8d588fe3a6bb2dd70d3ebcaa1f4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/1239a60264293eabaf71b7dcffc98033/AndroidManifest.xml:2:1-8:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/7629d9202661e70fb462f569545459b0/AndroidManifest.xml:15:1-21:12
-MERGED from [com.android.support:design:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/5e0b6b1eed78a83a34face4faa2585f4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:2:1-34:12
-MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:2:1-19:12
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.6.0.aar/4ab58e5db46b62ea9e89352874029bbe/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/145f1dab1177345eef2d24dd2340c307/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/21872215daf3627c13805837d6d6f71e/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:2:1-16:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15084601baa4a014c5e20ac0566b9564/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/b166491cac4530df5fc6e2c42d6fc9f9/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/d77e048dd82802b12b41e196c23b4463/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/ac370ef3d665c9adf47cce442acec925/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/3bcf43e3d4942c981309fcdfa2507155/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:exifinterface:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/41c6c1d458aa2c5897d35bb0480c661f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/c8d0188c2c88ee7cb60af1704ccc0caa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca6b834723f6df193f49b44f18838043/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/49ce18fdaf02a585ed656fed6323541b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5f044f746bd918b121787ab3854cbca4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/939e13e1901ee90be35cb939fd04f34a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/afcd5d6ff9ea557404f505c031903698/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/208db1a288d1df20677203a2a3224b47/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7353cc7b3c19f91bad3db8f7ba21604e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e2a21d2b5144e711eed5528734d5c442/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cfe71795e7df9f05e3e49f335b899deb/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2fd43a4e80d2c46e465f6254c5a5c000/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+MERGED from [com.android.databinding:adapters:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1d32801c66403ca1ad550ab9522d36d3/adapters-4.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1164d5b87697b4a2df2430ebcb1db44e/library-4.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/35b9440ab833677aa46bea771335a11f/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/dfc4caec2ff2eeba3c44462090a69237/firebase-database-16.0.1/AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/3310292b4694071b35394028cc2c4624/rxandroid-2.0.1/AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:design:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/78646191e20f3196e5a7111eed1a1380/design-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:2:1-34:12
+MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:2:1-19:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/985ddfd2c99a5de459d9996f5c73cd8c/android-image-cropper-2.6.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/9bab41cd1cac7e96d8cf039a3df31825/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0c4510d1204cf275a678b0ccb6e88a5d/firebase-database-connection-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b18f8df64b93d6a61dc8077248091653/play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/6111d86b54588f0025abb0a75f8fdad2/firebase-database-collection-15.0.1/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/e6569ae0f25d7a6fddbf0c62437bf2bd/support-v4-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.databinding:viewbinding:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c9232c356d06cfca9db3800ddeef1c19/viewbinding-4.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c3921bcea18819977d1b89b834faf9aa/recyclerview-v7-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/da56b47f0d1afa5b5485ac9629d72b35/transition-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/f2951af0c9a3852e4971aa7ee1fa81bb/support-media-compat-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af44a2020543186d4e4449c2c57f9562/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1f2892c38e9840c58ab405413fb28632/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/737391e76ecd5748c55f71a982c2dc3e/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ec9a9e48e73878aaa31602796e8d1fcf/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/d71c4a7453c2c65e83a32ca7f1ac2b2d/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ea0ee35f22a88ff9d8bac691cda371e2/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c06d85bc43379e950603fd5693ef4696/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0bdb6d2450fe1f05828988de4dae0ca9/exifinterface-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/92a577ba1cbf7d21b00d35b3ea7a240d/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0a2bdce0da8cfd5c768a5af1598d6c65/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ef6843ea5770e504c24b448e1bb8a0a9/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:3:5-44
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:1-65:12
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:5:5-60
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:5:5-60
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:5:19-57
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:5:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:6:5-70
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:6:5-70
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:6:19-67
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:6:19-67
 uses-feature#0x00020000
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:7:5-9:35
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:7:5-9:35
 	android:glEsVersion
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:8:9-41
 	android:required
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:9:9-32
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:9:9-32
 uses-permission#android.permission.CAMERA
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:11:5-65
-MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:11:5-65
-MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:11:5-65
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:11:5-65
+MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:11:5-65
+MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:11:22-62
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:11:22-62
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:12:5-79
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:12:22-76
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:13:5-80
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:13:22-77
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:13:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:14:5-71
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:14:5-71
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:14:22-68
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:14:22-68
 uses-permission#android.permission.INTERNET
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:15:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/21872215daf3627c13805837d6d6f71e/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/21872215daf3627c13805837d6d6f71e/AndroidManifest.xml:8:5-67
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:15:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0c4510d1204cf275a678b0ccb6e88a5d/firebase-database-connection-16.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0c4510d1204cf275a678b0ccb6e88a5d/firebase-database-connection-16.0.1/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:15:22-64
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:15:22-64
 uses-permission#android.permission.WRITE_INTERNAL_STORAGE
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:16:5-81
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:16:5-81
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:16:22-78
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:16:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:17:5-81
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:17:22-78
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:17:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:18:5-79
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:18:5-79
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:18:22-76
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:18:22-76
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:19:5-68
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:19:5-68
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:19:22-65
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:19:22-65
 application
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:21:5-63:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5b78e8d588fe3a6bb2dd70d3ebcaa1f4/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5b78e8d588fe3a6bb2dd70d3ebcaa1f4/AndroidManifest.xml:9:5-20
-MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:14:5-32:19
-MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:14:5-32:19
-MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:11:5-17:19
-MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:8:5-14:19
-MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:8:5-14:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15084601baa4a014c5e20ac0566b9564/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15084601baa4a014c5e20ac0566b9564/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:22:5-26:19
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:21:5-63:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/35b9440ab833677aa46bea771335a11f/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/35b9440ab833677aa46bea771335a11f/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:14:5-32:19
+MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:14:5-32:19
+MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b18f8df64b93d6a61dc8077248091653/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b18f8df64b93d6a61dc8077248091653/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
 	android:supportsRtl
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:25:9-35
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:24:9-41
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:24:9-41
 	android:icon
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:23:9-43
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:22:9-35
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:26:9-40
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:26:9-40
 activity#com.myhexaville.androidwebrtc.app_rtc_sample.main.AppRTCMainActivity
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:27:9-30:55
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:27:9-30:55
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:29:13-45
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:29:13-45
 	android:windowSoftInputMode
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:30:13-52
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:30:13-52
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:28:13-67
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:28:13-67
 activity#com.myhexaville.androidwebrtc.app_rtc_sample.call.CallActivity
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:31:9-36:52
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:31:9-36:52
 	android:screenOrientation
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:35:13-49
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:34:13-45
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:34:13-45
 	android:configChanges
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:33:13-59
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:33:13-59
 	android:theme
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:36:13-49
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:36:13-49
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:32:13-61
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:32:13-61
 activity#com.myhexaville.androidwebrtc.LauncherActivity
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:37:9-46:20
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:37:9-46:20
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:39:13-58
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:39:13-58
 	android:theme
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:40:13-56
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:38:13-45
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:41:13-45:29
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:38:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:42:17-69
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:42:25-66
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:44:17-77
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:44:27-74
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:44:27-74
 activity#com.myhexaville.androidwebrtc.tutorial.CameraRenderActivity
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:47:9-50:59
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:47:9-50:59
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:49:13-45
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:49:13-45
 	android:theme
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:50:13-56
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:50:13-56
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:48:13-58
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:48:13-58
 activity#com.myhexaville.androidwebrtc.tutorial.MediaStreamActivity
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:51:9-54:59
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:51:9-54:59
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:53:13-74
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:53:13-74
 	android:theme
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:54:13-56
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:52:13-57
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:52:13-57
 activity#com.myhexaville.androidwebrtc.tutorial.DataChannelActivity
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:55:9-58:59
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:55:9-58:59
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:57:13-71
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:57:13-71
 	android:theme
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:58:13-56
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:58:13-56
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:56:13-57
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:56:13-57
 activity#com.myhexaville.androidwebrtc.tutorial.CompleteActivity
-ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:59:9-62:68
+ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:59:9-62:68
 	android:label
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:61:13-60
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:61:13-60
 	android:theme
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:62:13-56
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:62:13-56
 	android:name
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:60:13-54
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml:60:13-54
 uses-sdk
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-MERGED from [com.android.databinding:adapters:1.3.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/5ac4b5b9b9842dccfc0cbec84e3f83ad/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:adapters:1.3.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/5ac4b5b9b9842dccfc0cbec84e3f83ad/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:library:1.3.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/6c284d265412a18bb2bee57d0427f370/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:library:1.3.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/6c284d265412a18bb2bee57d0427f370/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5b78e8d588fe3a6bb2dd70d3ebcaa1f4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/5b78e8d588fe3a6bb2dd70d3ebcaa1f4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/1239a60264293eabaf71b7dcffc98033/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/1239a60264293eabaf71b7dcffc98033/AndroidManifest.xml:6:5-44
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/7629d9202661e70fb462f569545459b0/AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/7629d9202661e70fb462f569545459b0/AndroidManifest.xml:19:5-43
-MERGED from [com.android.support:design:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/5e0b6b1eed78a83a34face4faa2585f4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/5e0b6b1eed78a83a34face4faa2585f4/AndroidManifest.xml:20:5-44
-MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:7:5-9:41
-MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:7:5-9:41
-MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.6.0.aar/4ab58e5db46b62ea9e89352874029bbe/AndroidManifest.xml:8:5-10:41
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.6.0.aar/4ab58e5db46b62ea9e89352874029bbe/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/145f1dab1177345eef2d24dd2340c307/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/145f1dab1177345eef2d24dd2340c307/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/21872215daf3627c13805837d6d6f71e/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/21872215daf3627c13805837d6d6f71e/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:5:5-6:37
-MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:5:5-6:37
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15084601baa4a014c5e20ac0566b9564/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15084601baa4a014c5e20ac0566b9564/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/b166491cac4530df5fc6e2c42d6fc9f9/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/b166491cac4530df5fc6e2c42d6fc9f9/AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/d77e048dd82802b12b41e196c23b4463/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/d77e048dd82802b12b41e196c23b4463/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/ac370ef3d665c9adf47cce442acec925/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/ac370ef3d665c9adf47cce442acec925/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/3bcf43e3d4942c981309fcdfa2507155/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/3bcf43e3d4942c981309fcdfa2507155/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/41c6c1d458aa2c5897d35bb0480c661f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/41c6c1d458aa2c5897d35bb0480c661f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/c8d0188c2c88ee7cb60af1704ccc0caa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/c8d0188c2c88ee7cb60af1704ccc0caa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca6b834723f6df193f49b44f18838043/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca6b834723f6df193f49b44f18838043/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/49ce18fdaf02a585ed656fed6323541b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/49ce18fdaf02a585ed656fed6323541b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5f044f746bd918b121787ab3854cbca4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5f044f746bd918b121787ab3854cbca4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/939e13e1901ee90be35cb939fd04f34a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/939e13e1901ee90be35cb939fd04f34a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/afcd5d6ff9ea557404f505c031903698/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/afcd5d6ff9ea557404f505c031903698/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/208db1a288d1df20677203a2a3224b47/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/208db1a288d1df20677203a2a3224b47/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7353cc7b3c19f91bad3db8f7ba21604e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7353cc7b3c19f91bad3db8f7ba21604e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e2a21d2b5144e711eed5528734d5c442/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e2a21d2b5144e711eed5528734d5c442/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cfe71795e7df9f05e3e49f335b899deb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/cfe71795e7df9f05e3e49f335b899deb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2fd43a4e80d2c46e465f6254c5a5c000/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2fd43a4e80d2c46e465f6254c5a5c000/AndroidManifest.xml:20:5-44
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1d32801c66403ca1ad550ab9522d36d3/adapters-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1d32801c66403ca1ad550ab9522d36d3/adapters-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1164d5b87697b4a2df2430ebcb1db44e/library-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1164d5b87697b4a2df2430ebcb1db44e/library-4.0.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/35b9440ab833677aa46bea771335a11f/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/35b9440ab833677aa46bea771335a11f/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/dfc4caec2ff2eeba3c44462090a69237/firebase-database-16.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/dfc4caec2ff2eeba3c44462090a69237/firebase-database-16.0.1/AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/3310292b4694071b35394028cc2c4624/rxandroid-2.0.1/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/3310292b4694071b35394028cc2c4624/rxandroid-2.0.1/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:design:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/78646191e20f3196e5a7111eed1a1380/design-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/78646191e20f3196e5a7111eed1a1380/design-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/985ddfd2c99a5de459d9996f5c73cd8c/android-image-cropper-2.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/985ddfd2c99a5de459d9996f5c73cd8c/android-image-cropper-2.6.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/9bab41cd1cac7e96d8cf039a3df31825/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/9bab41cd1cac7e96d8cf039a3df31825/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0c4510d1204cf275a678b0ccb6e88a5d/firebase-database-connection-16.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0c4510d1204cf275a678b0ccb6e88a5d/firebase-database-connection-16.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b18f8df64b93d6a61dc8077248091653/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b18f8df64b93d6a61dc8077248091653/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/6111d86b54588f0025abb0a75f8fdad2/firebase-database-collection-15.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/6111d86b54588f0025abb0a75f8fdad2/firebase-database-collection-15.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/e6569ae0f25d7a6fddbf0c62437bf2bd/support-v4-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/e6569ae0f25d7a6fddbf0c62437bf2bd/support-v4-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:viewbinding:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c9232c356d06cfca9db3800ddeef1c19/viewbinding-4.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:viewbinding:4.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c9232c356d06cfca9db3800ddeef1c19/viewbinding-4.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c3921bcea18819977d1b89b834faf9aa/recyclerview-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c3921bcea18819977d1b89b834faf9aa/recyclerview-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/da56b47f0d1afa5b5485ac9629d72b35/transition-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/da56b47f0d1afa5b5485ac9629d72b35/transition-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/f2951af0c9a3852e4971aa7ee1fa81bb/support-media-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/f2951af0c9a3852e4971aa7ee1fa81bb/support-media-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af44a2020543186d4e4449c2c57f9562/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af44a2020543186d4e4449c2c57f9562/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1f2892c38e9840c58ab405413fb28632/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/1f2892c38e9840c58ab405413fb28632/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/737391e76ecd5748c55f71a982c2dc3e/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/737391e76ecd5748c55f71a982c2dc3e/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ec9a9e48e73878aaa31602796e8d1fcf/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ec9a9e48e73878aaa31602796e8d1fcf/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/d71c4a7453c2c65e83a32ca7f1ac2b2d/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/d71c4a7453c2c65e83a32ca7f1ac2b2d/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ea0ee35f22a88ff9d8bac691cda371e2/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ea0ee35f22a88ff9d8bac691cda371e2/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c06d85bc43379e950603fd5693ef4696/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/c06d85bc43379e950603fd5693ef4696/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0bdb6d2450fe1f05828988de4dae0ca9/exifinterface-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0bdb6d2450fe1f05828988de4dae0ca9/exifinterface-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/92a577ba1cbf7d21b00d35b3ea7a240d/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/92a577ba1cbf7d21b00d35b3ea7a240d/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0a2bdce0da8cfd5c768a5af1598d6c65/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/0a2bdce0da8cfd5c768a5af1598d6c65/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ef6843ea5770e504c24b448e1bb8a0a9/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ef6843ea5770e504c24b448e1bb8a0a9/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-		ADDED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:12:5-80
+ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:12:22-77
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:12:22-77
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:18:9-21:47
+ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:18:9-21:47
 	android:screenOrientation
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:20:13-49
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:20:13-49
 	android:theme
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:21:13-44
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:21:13-44
 	android:name
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:19:13-76
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:19:13-76
 provider#com.myhexaville.smartimagepicker.CustomFileProvider
-ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:23:9-31:20
+ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:23:9-31:20
 	android:grantUriPermissions
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:27:13-47
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:27:13-47
 	android:authorities
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:25:13-79
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:25:13-79
 	android:exported
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:26:13-37
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:24:13-79
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:24:13-79
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:28:13-30:54
+ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:28:13-30:54
 	android:resource
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:30:17-51
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:30:17-51
 	android:name
-		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/smart-image-picker-1.0.4.aar/07c9b7c1fff1ebcbd9a1a4edf02a3e7a/AndroidManifest.xml:29:17-67
+		ADDED from [com.myhexaville:smart-image-picker:1.0.4] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/7443a3ab517621899e2ba1d2346fa258/smart-image-picker-1.0.4/AndroidManifest.xml:29:17-67
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
-ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:12:9-16:66
+ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:12:9-16:66
 	android:label
-		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:15:13-29
+		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:15:13-29
 	android:exported
-		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:14:13-37
+		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:14:13-37
 	android:theme
-		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:16:13-63
+		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:16:13-63
 	android:name
-		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/easypermissions-1.1.3.aar/7641adab7af752b1bdce431de306fc5e/AndroidManifest.xml:13:13-86
+		ADDED from [pub.devrel:easypermissions:1.1.3] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/a34b1adada69684c1872b83e42f93db4/easypermissions-1.1.3/AndroidManifest.xml:13:13-86
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:9:9-13:39
+ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:9:9-13:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:11:13-72
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:11:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:12:13-37
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:12:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:13:13-36
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:13:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fe58643e0ed93e134eafc5e7f9b796a4/AndroidManifest.xml:10:13-77
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/af468ebc81bb372b73a1e39a39b649de/firebase-common-16.0.0/AndroidManifest.xml:10:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58

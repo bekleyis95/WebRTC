@@ -1,42 +1,22 @@
 [
     {
-        "merged": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_call.xml",
-        "source": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/src/main/res/layout/activity_call.xml"
+        "merged": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_call.xml",
+        "source": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_call.xml"
     },
     {
-        "merged": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_call.xml",
-        "source": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_call.xml"
+        "merged": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_data_channel.xml",
+        "source": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_sample_data_channel.xml"
     },
     {
-        "merged": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_peer_connection.xml",
-        "source": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_sample_peer_connection.xml"
+        "merged": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_camera_render.xml",
+        "source": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_sample_camera_render.xml"
     },
     {
-        "merged": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_data_channel.xml",
-        "source": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/src/main/res/layout/activity_sample_data_channel.xml"
-    },
-    {
-        "merged": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_camera_render.xml",
-        "source": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/src/main/res/layout/activity_sample_camera_render.xml"
-    },
-    {
-        "merged": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_camera_render.xml",
-        "source": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_sample_camera_render.xml"
-    },
-    {
-        "merged": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_data_channel.xml",
-        "source": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_sample_data_channel.xml"
-    },
-    {
-        "merged": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_peer_connection.xml",
-        "source": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/src/main/res/layout/activity_sample_peer_connection.xml"
+        "merged": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sample_peer_connection.xml",
+        "source": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/src/main/res/layout/activity_sample_peer_connection.xml"
     }
 ]

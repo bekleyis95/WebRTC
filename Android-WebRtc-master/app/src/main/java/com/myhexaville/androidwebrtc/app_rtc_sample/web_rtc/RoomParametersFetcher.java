@@ -10,12 +10,20 @@
 
 package com.myhexaville.androidwebrtc.app_rtc_sample.web_rtc;
 
+/*
+ *  Copyright 2014 The WebRTC Project Authors. All rights reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree. An additional intellectual property rights grant can be found
+ *  in the file PATENTS.  All contributing project authors may
+ *  be found in the AUTHORS file in the root of the source tree.
+ */
+
 
 import android.util.Log;
 
-import com.myhexaville.androidwebrtc.app_rtc_sample.web_rtc.AppRTCClient.SignalingParameters;
 import com.myhexaville.androidwebrtc.app_rtc_sample.util.AsyncHttpURLConnection;
-import com.myhexaville.androidwebrtc.app_rtc_sample.util.AsyncHttpURLConnection.AsyncHttpEvents;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -51,7 +59,7 @@ public class RoomParametersFetcher {
          * Callback fired once the room's signaling parameters
          * SignalingParameters are extracted.
          */
-        void onSignalingParametersReady(final SignalingParameters params);
+        void onSignalingParametersReady(final AppRTCClient.SignalingParameters params);
 
         /**
          * Callback for room parameters extraction error.
@@ -69,7 +77,7 @@ public class RoomParametersFetcher {
     public void makeRequest() {
         Log.d(TAG, "Connecting to room: " + roomUrl);
         httpConnection =
-                new AsyncHttpURLConnection("POST", roomUrl, roomMessage, new AsyncHttpEvents() {
+                new AsyncHttpURLConnection("POST", roomUrl, roomMessage, new AsyncHttpURLConnection.AsyncHttpEvents() {
                     @Override
                     public void onHttpError(String errorMessage) {
                         Log.e(TAG, "Room connection error: " + errorMessage);
@@ -111,7 +119,6 @@ public class RoomParametersFetcher {
                     String messageString = messages.getString(i);
                     JSONObject message = new JSONObject(messageString);
                     String messageType = message.getString("type");
-                    Log.d(TAG, "GAE->C #" + i + " : " + messageString);
                     if (messageType.equals("offer")) {
                         offerSdp = new SessionDescription(
                                 SessionDescription.Type.fromCanonicalForm(messageType), message.getString("sdp"));
@@ -140,7 +147,7 @@ public class RoomParametersFetcher {
                 }
             }
             // Request TURN servers.
-            if (!isTurnPresent) {
+            if (!isTurnPresent && !roomJson.optString("ice_server_url").isEmpty()) {
                 LinkedList<PeerConnection.IceServer> turnServers =
                         requestTurnServers(roomJson.getString("ice_server_url"));
                 for (PeerConnection.IceServer turnServer : turnServers) {
@@ -149,7 +156,7 @@ public class RoomParametersFetcher {
                 }
             }
 
-            SignalingParameters params = new SignalingParameters(
+            AppRTCClient.SignalingParameters params = new AppRTCClient.SignalingParameters(
                     iceServers, initiator, clientId, wssUrl, wssPostUrl, offerSdp, iceCandidates);
             events.onSignalingParametersReady(params);
         } catch (JSONException e) {
@@ -203,9 +210,14 @@ public class RoomParametersFetcher {
         LinkedList<PeerConnection.IceServer> ret = new LinkedList<PeerConnection.IceServer>();
         for (int i = 0; i < servers.length(); ++i) {
             JSONObject server = servers.getJSONObject(i);
-            String url = server.getString("urls");
-            String credential = server.has("credential") ? server.getString("credential") : "";
-            ret.add(new PeerConnection.IceServer(url, "", credential));
+            JSONArray urls = server.getJSONArray("urls");
+            for (int j = 0; j < urls.length(); j++) {
+                String url = urls.getString(j);
+                String credential = server.has("credential") ? server.getString("credential") : "";
+                String username = server.has("username") ? server.getString("username") : "";
+                ret.add(new PeerConnection.IceServer(url, username, credential));
+            }
+
         }
         return ret;
     }

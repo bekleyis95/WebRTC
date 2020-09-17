@@ -1,66 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/denizbekleyis/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/208db1a288d1df20677203a2a3224b47/res/values-zh-rCN/values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "1967",
-                        "endColumns": "100",
-                        "endOffsets": "2063"
-                    }
-                },
-                {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/9021f32058261b9299a8d76756f89533/res/values-zh-rCN/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "157",
-                        "endOffsets": "408"
-                    },
-                    "to": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "1731",
-                        "endColumns": "157",
-                        "endOffsets": "1884"
-                    }
-                },
-                {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/145f1dab1177345eef2d24dd2340c307/res/values-zh-rCN/values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,201,296,396,478,575,681,757,833,911,1007,1103,1198,1295,1390,1488,1637,1731",
-                        "endColumns": "95,94,99,81,96,105,75,75,77,95,95,94,96,94,97,148,93,77",
-                        "endOffsets": "196,291,391,473,570,676,752,828,906,1002,1098,1193,1290,1385,1483,1632,1726,1804"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,201,296,396,478,575,681,757,833,911,1007,1103,1198,1295,1390,1488,1637,1889",
-                        "endColumns": "95,94,99,81,96,105,75,75,77,95,95,94,96,94,97,148,93,77",
-                        "endOffsets": "196,291,391,473,570,676,752,828,906,1002,1098,1193,1290,1385,1483,1632,1726,1962"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/denizbekleyis/Desktop/Work Stuff/Android-WebRtc-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
-            "map": [
-                {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fc8a4775300046a9fc5483784242af9c/res/values-zh-rCN/values-zh-rCN.xml",
+                    "source": "/Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/9bab41cd1cac7e96d8cf039a3df31825/appcompat-v7-27.1.1/res/values-zh-rCN/values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -77,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/523f71beb3e672c8da9080ecb81bf94d/res/values-zh-rCN/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "157",
-                        "endOffsets": "408"
-                    },
-                    "to": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "1731",
-                        "endColumns": "157",
-                        "endOffsets": "1884"
-                    }
-                },
-                {
-                    "source": "/Users/denizbekleyis/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b834c3651a2d9a6e3d544ec467d05a5d/res/values-zh-rCN/values-zh-rCN.xml",
+                    "source": "/Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/ea0ee35f22a88ff9d8bac691cda371e2/support-compat-27.1.1/res/values-zh-rCN/values-zh-rCN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -108,6 +35,23 @@
                         "startOffsets": "1967",
                         "endColumns": "100",
                         "endOffsets": "2063"
+                    }
+                },
+                {
+                    "source": "/Users/denizbekleyisseven/.gradle/caches/transforms-2/files-2.1/b420a7f9094d0532056731e641f3ff79/play-services-basement-15.0.1/res/values-zh-rCN/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "157",
+                        "endOffsets": "408"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1731",
+                        "endColumns": "157",
+                        "endOffsets": "1884"
                     }
                 }
             ]

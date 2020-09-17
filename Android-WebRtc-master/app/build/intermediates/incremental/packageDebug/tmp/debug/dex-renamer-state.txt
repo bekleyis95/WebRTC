@@ -1,0 +1,4 @@
+#Thu Sep 17 17:58:28 EET 2020
+base.0=/Users/denizbekleyisseven/Work/WebRTC/Android-WebRtc-master/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
